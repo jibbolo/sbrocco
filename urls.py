@@ -4,6 +4,6 @@ from django.conf.urls.defaults import *
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-  
+    (r'^account/', include("sbrocco.account.urls")),
     # (r'^admin/', include(admin.site.urls)),
 )

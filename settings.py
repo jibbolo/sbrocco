@@ -5,6 +5,11 @@ TEMPLATE_DEBUG = DEBUG
 
 PROJECT_PATH = os.path.dirname(__file__)
 
+# TWITTER
+
+CONSUMER_KEY = "IaLJ9girzWQxCvXcVPSiA"
+CONSUMER_SECRET = "9shWurByIKXG1Yvc5kb0vmBMpavbhMiGmJg9FSgBGJA"
+
 ADMINS = (
     ('Giacomo', 'jibbolo@gmail.com'),
     ('Diego', 'diegor.it@gmail.com'),
@@ -62,5 +67,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.messages',
+    'sbrocco.account',
     # 'django.contrib.admin',
 )
